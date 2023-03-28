@@ -1,0 +1,15 @@
+node_modules/
+files/
+.env
+*.rar
+*.exe
+uploads/*
+
+# IDE - VSCode
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
