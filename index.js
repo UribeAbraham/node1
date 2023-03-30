@@ -20,7 +20,7 @@ app.get('/', (_req, resp) => {
         msg: 'backend OK!!'
      });
 });
-app.use(validarJWT)
+//app.use(validarJWT)
 app.use('/api/contactos', require('./routes/contactos') );
 app.use('/api/usuarios', require('./routes/usuarios') );
 

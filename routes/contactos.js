@@ -3,7 +3,7 @@ const { Router } = require("express");
 const contactos = require('../controllers/contactos')
 const router = Router();
 
-router.get('/contactos', contactos.getContactos);
+router.get('/contactos', contactos.getContacts);
 
 router.post('/contactos', contactos.addContact);
 
