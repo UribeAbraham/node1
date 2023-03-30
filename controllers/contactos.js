@@ -16,9 +16,11 @@ module.exports = {
             { id:9, nombre: "contacto 9", telefono: "1234567890", correo: "mail@mail.com", tipo: 2 },
             { id:10, nombre: "contacto 10", telefono: "1234567890", correo: "mail@mail.com", tipo: 2 },
          ]
-         let results=contactos.filter((x)=>{
+
+         let results=tipo?contactos.filter((x)=>{
             return x.tipo==tipo
-         });
+         }):contactos;
+         
          if (results.length==0) {
             return resp.json({
                ok: false,

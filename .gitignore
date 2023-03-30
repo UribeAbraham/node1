@@ -1,6 +1,5 @@
 node_modules/
 files/
-.env
 *.rar
 *.exe
 uploads/*
