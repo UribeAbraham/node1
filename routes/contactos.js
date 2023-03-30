@@ -5,10 +5,10 @@ const router = Router();
 
 router.get('/contactos', contactos.getContacts);
 
-router.post('/contactos', contactos.addContact);
+router.post('/contacto', contactos.addContact);
 
-router.put('/contactos', contactos.updateContact);
+router.put('/contacto/update', contactos.updateContact);
 
-router.delete('/contactos', contactos.deleteContact);
+router.delete('/contacto', contactos.deleteContact);
 
 module.exports = router;
